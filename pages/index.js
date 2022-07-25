@@ -12,7 +12,6 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/grid-item'
 
 const Page = () => {
 	return (
@@ -24,8 +23,8 @@ const Page = () => {
 					p={3}
 					mb={6}
 					align="center"
-					>
-					Hello, I&apos;m a software developer base in Taiwan!
+				>
+					Hello, I&apos;m a software developer base in Taiwan!!
 				</Box>
 
 				<Box display={{ md: 'flex' }}>
